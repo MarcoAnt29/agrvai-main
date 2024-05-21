@@ -424,16 +424,17 @@ footer {
 
 
    }
-   .nav nav-tabs{
-    background-color: #000000;
-   }
+   
    .imagemboi .imgbatucada{
-    height: 180px;
-    width: 250px;
+    height: 150px;
+    width: 300px;
     background-color: #000000;
    }
-   .logodoboi{
-    background-color: #000000;   }
+  .logoboi{
+    width: 850px;
+    height: 250px;
+  }
+   
   body{
    
   background-color: rgb(2, 0, 0);
