@@ -166,9 +166,8 @@ background: linear-gradient(90deg, rgba(1,1,11,0.6671043417366946) 51%, rgba(27,
  color: beige;
 }
 
-#page4{
- 
-}
+
+
 
 .titulo3{display: flex;
   justify-content: center;
@@ -182,6 +181,7 @@ background: linear-gradient(90deg, rgba(1,1,11,0.6671043417366946) 51%, rgba(27,
  width: 1100px;
  border-radius: 70px;
  color: beige;
+ 
 }
 
 .tema{
@@ -206,6 +206,7 @@ background: linear-gradient(90deg, rgba(1,1,11,0.6671043417366946) 51%, rgba(27,
  border-radius: 40px;
  justify-content: center;
 }
+
 .itens{
   width: 500px;
   height: 500px;
@@ -218,14 +219,26 @@ background: linear-gradient(90deg, rgba(1,1,11,0.6671043417366946) 51%, rgba(27,
 }
 
 #page4{
- justify-content: center;
- display: flex;
- width: 500px;
+ 
+ 
  height: auto;
+ 
 
-  
+ 
 
 
+}
+
+.texto3{
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.texto1{
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 500px;
 }
 .carousel{
   width: 2200px;
@@ -378,8 +391,11 @@ footer {
   margin-left: 1500px;
 }
 
+strong{
+color: rgb(11, 151, 46);
+}
  
-@media only screen and (min-width: 111px) and (max-width: 1200px) {
+@media only screen and (min-width: 111px) and (max-width: 1600px) {
  
     
   
@@ -422,7 +438,6 @@ footer {
    display: flex;
    justify-content: space-between;
    margin-left: 50px;
-   background-color: #000000;
    
 
 
@@ -431,7 +446,6 @@ footer {
    .imagemboi .imgbatucada{
     height: 150px;
     width: 300px;
-    background-color: #000000;
    }
   .logoboi{
     width: 850px;
@@ -439,7 +453,7 @@ footer {
   }
    
   body{
-   
+   background-image: url();
   background-color: rgb(2, 0, 0);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -472,7 +486,6 @@ footer {
     padding: 35px;
     margin: auto;
     font-weight: bold;
-    background-color: #000000;
   
 
   }
@@ -554,6 +567,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
 }
+
 
 }
 
